@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 
 void getTime(int &h, int &m){
     std::cin >> h >> m;  
@@ -18,3 +16,5 @@ int subtract(int h1, int m1, int h2, int m2) {
   if(h3 < 0) h3 += 24;
     return h3;
 }
+
+
